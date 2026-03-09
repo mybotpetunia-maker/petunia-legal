@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service &amp; Privacy Policy — mybotpetunia.com</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:     #04080D;
+  --surf:   #0C1219;
+  --raised: #121B24;
+  --b1:     rgba(140,175,200,0.07);
+  --b2:     rgba(140,175,200,0.13);
+  --teal:   #5ECDD8;
+  --violet: #A991E2;
+  --t1:     #E0EAF2;
+  --t2:     #A8BDC9;
+  --t3:     #6A8FA8;
+  --t4:     #3A5568;
+  --mono:   'IBM Plex Mono', monospace;
+  --sans:   'IBM Plex Sans', system-ui, sans-serif;
+  --disp:   'Bodoni Moda', Georgia, serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--t2);
+  font-family:var(--sans);font-size:15px;
+  line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(4,8,13,0.94);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--b1);
+  display:flex;align-items:center;gap:16px;
+  padding:0 48px;height:50px;
+}
+.nb{display:flex;align-items:center;gap:9px;text-decoration:none}
+.nbrand{
+  font-family:var(--disp);font-size:14px;font-style:italic;
+  background:linear-gradient(90deg,#5ECDD8,#B8E8EE,#A991E2);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.ntag{font-family:var(--mono);font-size:9px;color:var(--t4);letter-spacing:.12em;text-transform:uppercase}
+.nlinks{margin-left:auto;display:flex;gap:24px}
+.nlinks a{font-family:var(--mono);font-size:10px;color:var(--t4);text-decoration:none;letter-spacing:.08em;text-transform:uppercase;transition:color .15s}
+.nlinks a:hover{color:var(--teal)}
+.wrap{max-width:780px;margin:0 auto;padding:0 48px 120px}
+.cover{padding:64px 0 48px;border-bottom:1px solid var(--b1);margin-bottom:56px}
+.eyebrow{
+  font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--teal);margin-bottom:18px;display:flex;align-items:center;gap:10px;
+}
+.eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--teal)}
+h1{
+  font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);font-weight:400;
+  color:var(--t1);line-height:1.1;letter-spacing:-.02em;margin-bottom:16px;
+}
+h1 em{
+  font-style:italic;
+  background:linear-gradient(90deg,#5ECDD8,#B8E8EE,#A991E2);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.covermeta{display:flex;gap:36px;margin-top:28px;flex-wrap:wrap}
+.cmi label{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--t4);display:block;margin-bottom:4px}
+.cmi span{font-family:var(--mono);font-size:12px;color:var(--t2)}
+.tabs{display:flex;border:1px solid var(--b2);border-radius:6px;overflow:hidden;margin-bottom:56px}
+.tab{
+  flex:1;padding:14px 20px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--t4);text-decoration:none;text-align:center;
+  background:var(--surf);border-right:1px solid var(--b2);transition:all .15s;
+}
+.tab:last-child{border-right:none}
+.tab:hover,.tab.active{color:var(--teal);background:var(--raised)}
+.sec{margin-bottom:72px}
+.secnum{
+  font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--teal);margin-bottom:10px;display:flex;align-items:center;gap:10px;
+}
+.secnum::after{content:'';flex:1;height:1px;background:var(--b1)}
+h2{
+  font-family:var(--disp);font-size:clamp(1.3rem,2.8vw,2rem);font-weight:400;
+  color:var(--t1);line-height:1.2;margin-bottom:24px;letter-spacing:-.01em;
+}
+h2 em{font-style:italic;color:var(--teal)}
+h3{
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--t2);margin:28px 0 10px;
+}
+p{color:var(--t2);margin-bottom:14px}
+ul{padding-left:18px;margin-bottom:14px}
+li{color:var(--t2);margin-bottom:7px;line-height:1.7}
+li::marker{color:var(--teal)}
+strong{color:var(--t1);font-weight:600}
+.callout{
+  background:var(--surf);border:1px solid var(--b2);
+  border-left:2px solid var(--teal);
+  padding:18px 22px;margin:20px 0;border-radius:0 6px 6px 0;
+}
+.callout.v{border-left-color:var(--violet)}
+.callout p{margin:0;font-size:14px}
+.warn{
+  background:rgba(169,145,226,0.06);border:1px solid rgba(169,145,226,0.18);
+  padding:20px 24px;margin:20px 0;border-radius:6px;
+}
+.warn p{margin:0;font-family:var(--mono);font-size:11px;color:var(--t3);line-height:1.8;letter-spacing:.01em}
+.dbadge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--raised);border:1px solid var(--b2);border-radius:4px;
+  padding:5px 12px;font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:36px;
+}
+.dbadge span{color:var(--teal)}
+.divider{
+  display:flex;align-items:center;gap:20px;
+  margin:72px 0;padding:36px 0;
+  border-top:1px solid var(--b1);border-bottom:1px solid var(--b1);
+}
+.divtext{font-family:var(--disp);font-size:clamp(1.6rem,3.5vw,2.6rem);font-style:italic;color:var(--t1);white-space:nowrap}
+.divtext em{
+  background:linear-gradient(90deg,#5ECDD8,#B8E8EE,#A991E2);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.divrule{flex:1;height:1px;background:var(--b1)}
+.contactbox{background:var(--surf);border:1px solid var(--b2);border-radius:8px;padding:28px 32px;margin-top:32px}
+.contactbox .lbl{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--t4);margin-bottom:12px}
+.contactbox a{color:var(--teal);text-decoration:none;font-family:var(--mono);font-size:13px}
+.contactbox a:hover{text-decoration:underline}
+footer{
+  border-top:1px solid var(--b1);padding:28px 48px;
+  max-width:780px;margin:0 auto;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+}
+.fbrand{
+  font-family:var(--disp);font-size:13px;font-style:italic;
+  background:linear-gradient(90deg,#5ECDD8,#B8E8EE,#A991E2);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.flinks{display:flex;gap:18px}
+.flinks a{font-family:var(--mono);font-size:9px;color:var(--t4);text-decoration:none;letter-spacing:.08em;text-transform:uppercase}
+.flinks a:hover{color:var(--teal)}
+.fmeta{margin-left:auto;font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--t4)}
+@media(max-width:640px){
+  nav,footer{padding:0 20px}
+  .wrap{padding:0 20px 80px}
+  .nlinks{display:none}
+  .tabs{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nb" href="https://mybotpetunia.com">
+    <svg width="17" height="17" viewBox="0 0 90 90" fill="none">
+      <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#5ECDD8"/><stop offset="50%" stop-color="#B8E8EE"/><stop offset="100%" stop-color="#A991E2"/></linearGradient></defs>
+      <path d="M45,5C53,5,63,11,67,19C69,25,68,33,74,38C80,43,82,49,79,54C76,59,69,60,66,67C63,73,63,80,57,83C53,86,48,85,45,85C42,85,37,86,33,83C27,80,27,73,24,67C21,60,14,59,11,54C8,49,10,43,16,38C22,33,21,25,23,19C27,11,37,5,45,5Z" fill="url(#g)"/>
+      <circle cx="45" cy="45" r="9" fill="#04080D"/><circle cx="45" cy="45" r="4.5" fill="url(#g)"/>
+    </svg>
+    <span class="nbrand">Petunia</span>
+  </a>
+  <span class="ntag">Legal</span>
+  <div class="nlinks">
+    <a href="#terms">Terms of Service</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="https://mybotpetunia.com">← Back</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="cover">
+    <div class="eyebrow">mybotpetunia.com · Legal</div>
+    <h1>Terms &amp; <em>Privacy.</em></h1>
+    <p style="color:var(--t3);max-width:540px;margin-top:8px;font-size:14px">mybotpetunia.com is a personal experiment site operated by an individual. It is not a commercial product or service. These documents govern your access to and use of the site and any of its subdomains.</p>
+    <div class="covermeta">
+      <div class="cmi"><label>Domain</label><span>mybotpetunia.com</span></div>
+      <div class="cmi"><label>Effective</label><span>March 8, 2026</span></div>
+      <div class="cmi"><label>Operator</label><span>Individual / personal site</span></div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <a class="tab active" href="#terms">Terms of Service</a>
+    <a class="tab" href="#privacy">Privacy Policy</a>
+  </div>
+
+
+  <!-- ═══════════════════════
+       TERMS OF SERVICE
+  ═══════════════════════ -->
+  <div id="terms">
+    <div class="dbadge">Last updated: <span>March 8, 2026</span></div>
+
+    <div class="callout">
+      <p>BY ACCESSING OR USING MYBOTPETUNIA.COM OR ANY OF ITS SUBDOMAINS, YOU AGREE TO THESE TERMS IN THEIR ENTIRETY. IF YOU DO NOT AGREE, DO NOT ACCESS OR USE THE SITE.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">1 · What This Site Is</div>
+      <h2>A personal <em>experiment.</em></h2>
+      <p>mybotpetunia.com ("Site") is a personal website operated by an individual ("Operator," "we," "us," or "our"). The Site documents an ongoing personal experiment in building products and businesses using AI tools. It is not a commercial product, platform, or service. Nothing on this Site constitutes an offer to sell, a solicitation, or a commercial service of any kind unless explicitly stated otherwise in a specific section of the Site.</p>
+      <p>The Site currently includes: (a) a publicly accessible homepage and associated public pages; (b) a newsletter signup for visitors who wish to follow updates about the experiment; and (c) subdomains hosting tools and applications, some of which are access-restricted and some of which may be publicly accessible. The Site may change in scope, content, and functionality at any time without notice.</p>
+      <p>Ideas, concepts, and potential businesses described or listed on the Site are exploratory in nature. They are not active products or services being offered to users. Any such offerings, if and when they launch, will operate under separate terms on separate domains.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">2 · Acceptance and Eligibility</div>
+      <h2>Who can <em>access this site.</em></h2>
+      <p>By accessing the Site, you represent that you are at least 18 years of age and have the legal capacity to agree to these Terms. If you are under 18, you may not use the Site. These Terms apply to all visitors, newsletter subscribers, and users of any subdomain or tool hosted on mybotpetunia.com.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">3 · No Warranties — Site and Content</div>
+      <h2>Everything here is <em>"as is."</em></h2>
+      <div class="warn">
+        <p>THE SITE AND ALL CONTENT, TOOLS, APPLICATIONS, AND SUBDOMAINS ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS, RELIABILITY, OR NON-INFRINGEMENT. THE OPERATOR MAKES NO REPRESENTATION THAT THE SITE WILL BE UNINTERRUPTED, ERROR-FREE, OR FREE OF HARMFUL COMPONENTS. ALL CONTENT IS EXPERIMENTAL AND PERSONAL IN NATURE AND SHOULD NOT BE RELIED UPON FOR ANY PURPOSE.</p>
+      </div>
+      <p>Tools and applications hosted on subdomains of mybotpetunia.com are personal projects. They are not designed, tested, or warranted for use by third parties. They may break, change, or disappear at any time. No support, maintenance, uptime, or continued availability is promised or implied.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">4 · Subdomain Access and Restricted Tools</div>
+      <h2>Gated and public <em>subdomains.</em></h2>
+      <p>Some subdomains of mybotpetunia.com are access-restricted and available only to individuals on an explicit allowlist. Attempting to circumvent, bypass, or gain unauthorized access to any restricted subdomain or tool is prohibited and may constitute a violation of applicable law, including the Computer Fraud and Abuse Act.</p>
+      <p>Some subdomains may be publicly accessible. Public accessibility does not imply any invitation, license, or right to rely on, republish, scrape, or build upon the content or functionality of those tools beyond ordinary personal browsing. The Operator reserves the right to restrict, modify, or remove any subdomain or tool at any time without notice or liability.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">5 · Newsletter</div>
+      <h2>If you subscribe to <em>updates.</em></h2>
+      <p>The Site offers a newsletter for visitors who wish to receive updates about the Petunia experiment. By submitting your email address to subscribe, you consent to receiving periodic email communications from the Operator. The newsletter is informational and personal in nature — it does not constitute a commercial solicitation.</p>
+      <p>You may unsubscribe at any time by clicking the unsubscribe link included in every newsletter email. After unsubscribing, your email address will be removed from the mailing list within a commercially reasonable period. We do not sell, share, or transfer newsletter subscriber email addresses to third parties for marketing purposes.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">6 · Acceptable Use</div>
+      <h2>What you may <em>not</em> do.</h2>
+      <p>You agree not to:</p>
+      <ul>
+        <li>Attempt to gain unauthorized access to any restricted subdomain, tool, or system;</li>
+        <li>Scrape, harvest, or systematically collect content from the Site by automated means;</li>
+        <li>Use the Site or any tool hosted on it to violate any applicable law or regulation;</li>
+        <li>Introduce malware, viruses, or malicious code to any part of the Site;</li>
+        <li>Interfere with or disrupt the Site's infrastructure or other users' access;</li>
+        <li>Impersonate the Operator or any other person in connection with the Site; or</li>
+        <li>Use the Site in any way that could damage, overburden, or impair it.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">7 · Intellectual Property</div>
+      <h2>Ownership of <em>content.</em></h2>
+      <p>All content on the Site — including text, design, code, graphics, and the Petunia name and identity — is owned by or licensed to the Operator. Nothing on the Site grants you any license to reproduce, distribute, modify, or create derivative works from any Site content without the Operator's prior written consent. You may link to the Site and share individual URLs for personal, non-commercial purposes.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">8 · Third-Party Links and Services</div>
+      <h2>Outside <em>links.</em></h2>
+      <p>The Site may link to or reference third-party websites, tools, platforms, or services. The Operator has no control over and no responsibility for any third-party content, availability, or practices. Links do not constitute endorsement. Your interactions with any third-party site or service are governed by that party's own terms.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">9 · Limitation of Liability</div>
+      <h2>Our <em>limits.</em></h2>
+      <div class="warn">
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE OPERATOR SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO YOUR ACCESS TO OR USE OF (OR INABILITY TO USE) THE SITE, ANY SUBDOMAIN, ANY TOOL, OR ANY CONTENT — INCLUDING BUT NOT LIMITED TO RELIANCE ON ANY INFORMATION ON THE SITE, UNAUTHORIZED ACCESS TO RESTRICTED AREAS, OR INTERRUPTION OR CESSATION OF ANY TOOL OR SUBDOMAIN. THE OPERATOR'S TOTAL AGGREGATE LIABILITY FOR ANY CLAIM ARISING FROM OR RELATED TO THE SITE SHALL NOT EXCEED TEN US DOLLARS ($10.00).</p>
+      </div>
+      <p>The Site is a personal project. The limitation above reflects the non-commercial nature of the Operator's activities. Some jurisdictions do not permit certain liability limitations; in such cases, the limitation applies to the maximum extent permitted by law.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">10 · Indemnification</div>
+      <h2>Your <em>responsibility.</em></h2>
+      <p>You agree to defend, indemnify, and hold harmless the Operator from and against any claims, liabilities, damages, losses, and expenses (including reasonable attorneys' fees) arising out of or related to: (a) your access to or use of the Site or any subdomain; (b) your violation of these Terms; or (c) your violation of any applicable law or third-party right.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">11 · Governing Law and Disputes</div>
+      <h2>How disputes <em>resolve.</em></h2>
+      <p>These Terms are governed by the laws of the United States and the state in which the Operator resides, without regard to conflict-of-law principles. Any dispute arising from these Terms or your use of the Site that cannot be resolved informally shall be resolved by binding individual arbitration under the then-current rules of the American Arbitration Association. You waive any right to participate in a class action or representative proceeding. Either party may seek emergency injunctive relief in a court of competent jurisdiction to prevent irreparable harm pending arbitration.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">12 · Modifications and Termination</div>
+      <h2>Changes and <em>access.</em></h2>
+      <p>The Operator may modify these Terms at any time by updating this page and revising the "Last updated" date. Your continued use of the Site after any modification constitutes acceptance of the revised Terms. The Operator may restrict, suspend, or terminate your access to the Site or any subdomain at any time, for any reason, without notice or liability. Sections 3, 7, 9, 10, 11, and 13 survive any termination.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">13 · Miscellaneous</div>
+      <h2>Everything <em>else.</em></h2>
+      <p><strong>Entire agreement.</strong> These Terms and the Privacy Policy below constitute the entire agreement between you and the Operator regarding mybotpetunia.com and its subdomains. Separate terms apply to any independent products or businesses that may launch on other domains.</p>
+      <p><strong>Severability.</strong> If any provision is found unenforceable, it will be modified to the minimum extent necessary and the remaining provisions will continue in effect.</p>
+      <p><strong>No waiver.</strong> Failure to enforce any provision does not constitute a waiver.</p>
+      <p><strong>No professional relationship.</strong> Nothing on this Site constitutes legal, financial, medical, or professional advice of any kind. The Site documents a personal experiment and should not be relied upon for any consequential decision.</p>
+      <p><strong>Contact.</strong> For legal notices regarding these Terms, you may reach us at <a href="/cdn-cgi/l/email-protection#aec3d7ccc1dadecbdadbc0c7cfeec9c3cfc7c280cdc1c3" style="color:var(--teal);text-decoration:none"><span class="__cf_email__" data-cfemail="b3decad1dcc7c3d6c7c6dddad2f3d4ded2dadf9dd0dcde">[email&#160;protected]</span></a>. We are not obligated to respond to general inquiries.</p>
+    </div>
+  </div><!-- /terms -->
+
+
+  <!-- DIVIDER -->
+  <div class="divider">
+    <div class="divtext"><em>Privacy</em> Policy.</div>
+    <div class="divrule"></div>
+  </div>
+
+
+  <!-- ═══════════════════════
+       PRIVACY POLICY
+  ═══════════════════════ -->
+  <div id="privacy">
+    <div class="dbadge">Last updated: <span>March 8, 2026</span></div>
+
+    <div class="callout">
+      <p>This Privacy Policy describes what personal information mybotpetunia.com collects, why, and how it is handled. mybotpetunia.com is a personal, non-commercial site. Data collection is minimal and limited to what is described below.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.1 · What We Collect and Why</div>
+      <h2>Data we <em>actually collect.</em></h2>
+
+      <h3>Newsletter email addresses</h3>
+      <p>If you subscribe to the newsletter, we collect your email address for the sole purpose of sending you newsletter communications. The newsletter is operated through Substack. Your email address is stored and processed by Substack, Inc., and their <a href="https://substack.com/privacy" style="color:var(--teal);text-decoration:none">Privacy Policy</a> governs how your data is handled on their platform. We do not use newsletter email addresses for any purpose other than sending the newsletter.</p>
+
+      <h3>Automatically collected data</h3>
+      <p>Like most websites, the Site may automatically collect standard server log data when you visit, including your IP address, browser type, operating system, referring URL, pages visited, and timestamps. This data is collected by our hosting provider and may be retained in server logs for operational and security purposes. We do not actively analyze this data on an individual basis.</p>
+
+      <h3>Subdomain and tool usage</h3>
+      <p>Access-restricted subdomains require authentication. If you are on the allowlist for a restricted subdomain, access credentials and usage logs may be collected as part of the authentication and operation of that tool. Publicly accessible subdomains may collect data specific to their function — if and when such subdomains are added and collect personal data beyond server logs, this policy will be updated to describe that collection, or a separate policy specific to that subdomain will be provided.</p>
+
+      <h3>What we do not collect</h3>
+      <p>We do not run advertising networks. We do not sell your data. We do not build behavioral profiles of visitors. We do not collect payment information (the Site does not currently sell anything). We do not use third-party tracking pixels or social media tracking tools on the main Site.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.2 · Cookies</div>
+      <h2>Cookies and <em>tracking.</em></h2>
+      <p>The Site may use cookies for the following limited purposes:</p>
+      <ul>
+        <li><strong>Authentication cookies:</strong> Required for access-restricted subdomains. Without these, restricted tools cannot function.</li>
+        <li><strong>Analytics:</strong> We may use a privacy-respecting analytics tool to understand aggregate traffic. Where possible, we prefer tools that do not set persistent third-party cookies or fingerprint individual users.</li>
+      </ul>
+      <p>We do not use cookies for advertising or behavioral targeting. You can manage cookies through your browser settings. Blocking authentication cookies will prevent access to restricted subdomains.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.3 · Third-Party Services</div>
+      <h2>Who else <em>touches your data.</em></h2>
+      <p>We use third-party services to operate the Site. These currently include, and may in the future include:</p>
+      <ul>
+        <li><strong>Hosting provider:</strong> Stores and serves Site files and server logs.</li>
+        <li><strong>Substack (newsletter platform):</strong> Stores subscriber email addresses and delivers newsletter emails. Subject to <a href="https://substack.com/privacy" style="color:var(--teal);text-decoration:none">Substack's Privacy Policy</a>.</li>
+        <li><strong>Authentication provider:</strong> Manages access control for restricted subdomains.</li>
+      </ul>
+      <p>Each of these providers is subject to its own privacy policy. We do not control their data practices beyond our contractual relationship with them. We do not share your personal information with any third party for marketing or advertising purposes.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.4 · CAN-SPAM Compliance</div>
+      <h2>Newsletter <em>law.</em></h2>
+      <p>Our newsletter communications are sent via Substack and comply with the CAN-SPAM Act. Every newsletter email will: (a) identify the sender clearly; (b) include a valid physical address — provided by Substack, Inc. on our behalf; (c) include a clear and functional unsubscribe mechanism; and (d) honor unsubscribe requests promptly. We do not send deceptive subject lines or sender information.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.5 · Data Retention</div>
+      <h2>How long we <em>keep data.</em></h2>
+      <p>Newsletter email addresses are retained until you unsubscribe, after which they will be removed from active lists within a commercially reasonable time. Server log data is retained according to our hosting provider's standard retention periods, which we do not directly control. Authentication data for restricted subdomains is retained as long as access is granted.</p>
+      <p>We do not have formal data retention schedules. We are a personal site, not a data processor. We will delete personal information upon request to the extent technically feasible.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.6 · Your Choices</div>
+      <h2>What you can <em>do.</em></h2>
+      <p><strong>Newsletter:</strong> You may unsubscribe at any time using the link in any newsletter email. You may also request deletion of your email address by contacting us directly.</p>
+      <p><strong>Server logs:</strong> Standard server log data is collected automatically by our hosting provider. We have limited ability to delete individual records from those logs on request.</p>
+      <p><strong>Requests:</strong> If you wish to request access to, correction of, or deletion of personal data we hold, contact us at <a href="/cdn-cgi/l/email-protection#f29f8b909d86829786879c9b93b2959f939b9edc919d9f" style="color:var(--teal);text-decoration:none"><span class="__cf_email__" data-cfemail="1875617a776c687d6c6d767179587f75797174367b7775">[email&#160;protected]</span></a>. We will respond to the extent required by applicable law and technically feasible. We are not obligated to respond to requests that exceed our legal obligations as a small personal site operator.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.7 · Applicability of Privacy Laws</div>
+      <h2>What laws <em>apply.</em></h2>
+      <p>mybotpetunia.com is a personal, non-commercial site operated by an individual. As of the date of this policy, we do not meet the thresholds for mandatory applicability of the CCPA/CPRA (annual gross revenue over $26.6M, processing records of 100,000+ California residents annually, or deriving 50%+ of revenue from selling personal information). We do not sell personal information.</p>
+      <p>We make no specific representation of compliance with GDPR, CCPA, or other foreign or state privacy regimes beyond what is described in this policy. If you believe a specific legal obligation applies to our processing of your data, contact us at the address in P.8 and we will evaluate the request in good faith.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.8 · Children</div>
+      <h2>No <em>minors.</em></h2>
+      <p>The Site is not directed to individuals under 18. We do not knowingly collect personal information from minors. If we learn a minor has subscribed to the newsletter or used the Site, we will delete their information promptly.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.9 · Security</div>
+      <h2>Data <em>security.</em></h2>
+      <div class="warn">
+        <p>THIS IS A PERSONAL SITE. WE DO NOT MAINTAIN ENTERPRISE-GRADE SECURITY INFRASTRUCTURE. WE TAKE REASONABLE PRECAUTIONS APPROPRIATE TO THE MINIMAL DATA WE COLLECT, BUT WE CANNOT GUARANTEE THE SECURITY OF ANY INFORMATION YOU PROVIDE. TRANSMIT INFORMATION TO THIS SITE AT YOUR OWN RISK. DO NOT SUBMIT SENSITIVE PERSONAL INFORMATION THROUGH THIS SITE.</p>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.10 · Changes to This Policy</div>
+      <h2>When things <em>change.</em></h2>
+      <p>We may update this Privacy Policy at any time. The "Last updated" date at the top of this page will reflect the most recent revision. If we add new subdomains or tools that collect personal data in materially new ways, we will update this policy before or at the time that data collection begins. Your continued use of the Site after any update constitutes acceptance of the revised policy.</p>
+    </div>
+
+    <div class="sec">
+      <div class="secnum">P.11 · Contact</div>
+      <h2>Privacy <em>contact.</em></h2>
+      <div class="contactbox">
+        <div class="lbl">Privacy inquiries and data requests</div>
+        <p style="font-size:14px;margin-bottom:10px">For privacy-related questions or requests, you may reach us at:</p>
+        <a href="/cdn-cgi/l/email-protection#98f5e1faf7ece8fdecedf6f1f9d8fff5f9f1f4b6fbf7f5"><span class="__cf_email__" data-cfemail="563b2f34392226332223383f3716313b373f3a7835393b">[email&#160;protected]</span></a>
+        <p style="margin-top:12px;font-size:12px;color:var(--t4)">We are a personal site operator. We will respond to requests as required by applicable law. We are not obligated to respond to all inquiries.</p>
+      </div>
+    </div>
+
+  </div><!-- /privacy -->
+
+</div><!-- /wrap -->
+
+<footer>
+  <div class="fbrand">Petunia</div>
+  <div class="flinks">
+    <a href="#terms">Terms</a>
+    <a href="#privacy">Privacy</a>
+    <a href="https://mybotpetunia.com">mybotpetunia.com</a>
+  </div>
+  <div c
